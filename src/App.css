@@ -1,0 +1,43 @@
+.Home{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.item{
+  padding: 0;
+  display: flex;
+  width: 10%;
+  justify-content: space-around;
+  /* text-decoration: none; */
+  align-items: center;
+}
+
+nav{
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+h1{
+  color:white
+}
+
+.search-container{
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  gap: 2px;
+}
+
+.search-results{
+  display: flex;
+  justify-content: center;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+}
